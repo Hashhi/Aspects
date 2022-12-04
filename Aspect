@@ -1,0 +1,50 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("Aspect Hub","BloodTheme")
+
+---Tabs
+
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main")
+local Tab2 = window:NewTab("Bloxfruit")
+local Tab2Section = Tab2:NewSection("Hubs")
+local Tab3 = window:NewTab("Who Made it? Click this. Ty for using Aspect Hub.")
+local Tab3Section = Tab3:NewSection("Made By Hashii")
+local Tab3Section = Tab3:NewSection("Sub To Me")
+
+---Buttons
+
+Tab1Section:NewButton("Baddass","Increase Range",function()
+ loadstring(game:HttpGet("https://pastebin.com/raw/bXj29iRf",true))()
+end)
+
+Tab1Section:NewButton("UnderTaker","Increase Range",function()
+loadstring(game:HttpGet(('https://pastefy.ga/mv6EOsOX/raw'),true))()
+end)
+
+Tab1Section:NewButton("Grab Knife","Increase Range",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/YZnvHFFK",true))()
+  end)
+
+Tab1Section:NewButton("Op Aimbot","Increase Range",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/0bKB8vYd",true))()
+end)
+
+Tab1Section:NewButton("Holiday Feels","Increase Range",function()
+loadstring(game:HttpGet(('https://pastefy.ga/aKxgjklw/raw'),true))()
+end)
+
+Tab1Section:NewButton("Keyboard","Increase Range",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() 
+end)
+
+Tab2Section:NewButton("Zeus Hub","Increase Range",function
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BlodyXHub/ZeusHub/main/Loading_Ui"))()
+end)
+
+Tab2Section:NewButton("Boe Hub","Increase Range",function
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Boe"))()
+end)
+
+Tab2Section:NewButton("Pendalum Hub(not a bloxfruit script)","Increase Range",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+ end)
